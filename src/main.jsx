@@ -149,8 +149,8 @@ function App() {
         <p className="eyebrow">Contact</p>
         <h2>Interested in UX research, consulting, or AI-assisted product workflows?</h2>
         <div className="contactLinks">
-          <a href="mailto:hello@example.com">Email</a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:michele5harper@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/micheleharperux/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
         <p className="small">© {new Date().getFullYear()} Michele Harper</p>
       </footer>
