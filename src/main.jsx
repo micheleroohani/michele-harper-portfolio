@@ -39,7 +39,7 @@ const caseStudies = [
 
 const expertise = [
   "UX research",
-  "Usability testing",
+  "Usability testing",https://www.linkedin.com/in/micheleharperux/
   "Information architecture",
   "Accessibility",
   "Design systems",
