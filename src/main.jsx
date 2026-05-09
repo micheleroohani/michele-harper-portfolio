@@ -70,6 +70,13 @@ const expertise = [
 ];
 
 function App() {
+  const [copied, setCopied] = useState(false);
+
+const copyEmail = async () => {
+  await navigator.clipboard.writeText("michele5harper@gmail.com");
+  setCopied(true);
+  setTimeout(() => setCopied(false), 1600);
+};
   return (
     <main>
       <nav className="nav">
@@ -180,9 +187,9 @@ function App() {
 <div className="contactLinks">
   <button
     className="contactCopy"
-    onClick={() => navigator.clipboard.writeText("michele5harper@gmail.com")}
+    onClick={copyEmail}
   >
-    Copy email
+    {copied ? "Copied ✓" : "Copy email"}
   </button>
 
   <span className="emailText">michele5harper@gmail.com</span>
