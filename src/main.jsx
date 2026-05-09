@@ -50,7 +50,7 @@ function App() {
   return (
     <main>
       <nav className="nav">
-        <a href="#top" className="brand">Michele Harper</a>
+        <a href="#top" className="brand">Michele R. Harper</a>
         <div className="navlinks">
           <a href="#case-studies">Work</a>
           <a href="#process">Process</a>
@@ -151,7 +151,7 @@ function App() {
           <a href="mailto:michele5harper@gmail.com">Email</a>
           <a href="https://www.linkedin.com/in/micheleharperux/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
-        <p className="small">© {new Date().getFullYear()} Michele Harper</p>
+        <p className="small">© {new Date().getFullYear()} Michele R. Harper</p>
       </footer>
     </main>
   );
