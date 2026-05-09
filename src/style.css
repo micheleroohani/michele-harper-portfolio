@@ -169,15 +169,18 @@ p {
 .card {
   min-height: 220px;
   padding: 28px 32px;
-  border-radius: 25px;
+  border-radius: 26px;
   box-sizing: border-box;
+  height: 100%;
 }
 .gradientCard {
-  padding: 3px;
+  padding: 2px;
   border-radius: 28px;
   background: linear-gradient(90deg, #6d9ed6, #69bfa0);
 }
-
+.gradientCard {
+  display: flex;
+}
 .iconDot {
   width: 22px;
   height: 22px;
