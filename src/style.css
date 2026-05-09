@@ -36,24 +36,22 @@ a {
 .brand {
   color: #111111;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   letter-spacing: -0.02em;
 }
 
 .navlinks {
   display: flex;
-  gap: 24px;
-  color: #666;
-  font-size: 14px;
+  gap: 32px;
 }
 
 .navlinks a {
   color: #111111;
   text-decoration: none;
-  font-size: 15px;
-  font-weight: 500;
-  letter-spacing: -0.01em;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
   transition: opacity 0.2s ease;
 }
 
