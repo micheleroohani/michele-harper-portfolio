@@ -34,8 +34,11 @@ a {
 }
 
 .brand {
-  font-weight: 800;
-  letter-spacing: -0.03em;
+  color: #111111;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .navlinks {
