@@ -63,7 +63,7 @@ a {
   align-items: center;
   padding: 72px clamp(20px, 5vw, 72px);
 }
-..heroInner {
+.heroInner {
   max-width: 760px;
 }
 eyebrow {
