@@ -40,10 +40,10 @@ const caseStudies = [
 const expertise = [
   { label: "UX research", color: "#EEF6FF" },
   { label: "Usability testing", color: "#EEFDF5" },
-  { label: "Information architecture", color: "#F4F0FF" },
-  { label: "Accessibility", color: "#FFF8EA" },
-  { label: "Design systems", color: "#F2F6FA" },
-  { label: "AI-assisted UX workflows", color: "#F1F8F1" },
+  { label: "Information architecture", color: "#EEF6FF" },
+  { label: "Accessibility", color: "#EEFDF5" },
+  { label: "Design systems", color: "#EEF6FF" },
+  { label: "AI-assisted UX workflows", color: "#EEFDF5" },
 ];
 
 function App() {
