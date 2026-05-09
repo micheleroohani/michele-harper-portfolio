@@ -38,12 +38,12 @@ const caseStudies = [
 ];
 
 const expertise = [
-  "UX research",
-  "Usability testing",
-  "Information architecture",
-  "Accessibility",
-  "Design systems",
-  "AI-assisted UX workflows",
+  { label: "UX research", color: "#EEF6FF" },
+  { label: "Usability testing", color: "#EEFDF5" },
+  { label: "Information architecture", color: "#F4F0FF" },
+  { label: "Accessibility", color: "#FFF8EA" },
+  { label: "Design systems", color: "#F2F6FA" },
+  { label: "AI-assisted UX workflows", color: "#F1F8F1" },
 ];
 
 function App() {
@@ -89,9 +89,13 @@ function App() {
         <p className="eyebrow">Expertise</p>
         <h2>Where I create value.</h2>
         <div className="grid">
-         {expertise.map((label) => (
-  <div className="card" key={label}>
-    <h3>{label}</h3>
+    {expertise.map((item) => (
+  <div
+    className="card"
+    key={item.label}
+    style={{ backgroundColor: item.color }}
+  >
+    <h3>{item.label}</h3>
   </div>
 ))}
         </div>
