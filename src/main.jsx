@@ -176,10 +176,26 @@ function App() {
       <footer id="contact" className="footer">
         <p className="eyebrow">Contact</p>
         <h2>Interested in UX research, consulting, or AI-assisted product workflows?</h2>
-        <div className="contactLinks">
-          <a href="mailto:michele5harper@gmail.com">Email</a>
-          <a href="https://www.linkedin.com/in/micheleharperux/" target="_blank" rel="noreferrer">LinkedIn</a>
-        </div>
+        
+<div className="contactLinks">
+  <button
+    className="contactCopy"
+    onClick={() => navigator.clipboard.writeText("michele5harper@gmail.com")}
+  >
+    Copy email
+  </button>
+
+  <span className="emailText">michele5harper@gmail.com</span>
+
+  <a
+    href="https://www.linkedin.com/in/micheleharperux/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    LinkedIn
+  </a>
+</div>
+        
         <p className="small">© {new Date().getFullYear()} Michele R. Harper</p>
       </footer>
     </main>
