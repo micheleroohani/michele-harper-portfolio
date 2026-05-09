@@ -167,14 +167,15 @@ p {
 }
 
 .card {
-  border: none;
-  border-radius: 28px;
-  height: 100%;
+  min-height: 160px;
+  padding: 28px 32px;
+  border-radius: 25px;
+  box-sizing: border-box;
 }
 .gradientCard {
   padding: 3px;
-  border-radius: 31px;
-  background: linear-gradient(90deg, #7EA7D8, #79BFA0);
+  border-radius: 28px;
+  background: linear-gradient(90deg, #6d9ed6, #69bfa0);
 }
 
 .iconDot {
