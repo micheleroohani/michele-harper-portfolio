@@ -36,14 +36,37 @@ const caseStudies = [
       "Ran usability testing on redesigned support pages, synthesized findings into actionable recommendations, and helped establish UX research as a trusted method for future projects.",
   },
 ];
-
 const expertise = [
-  { label: "UX research", color: "#EEF6FF" },
-  { label: "Usability testing", color: "#EEFDF5" },
-  { label: "Information architecture", color: "#EEF6FF" },
-  { label: "Accessibility", color: "#EEFDF5" },
-  { label: "Design systems", color: "#EEF6FF" },
-  { label: "AI-assisted UX workflows", color: "#EEFDF5" },
+  {
+    label: "UX research",
+    color: "#EEF6FF",
+    description: "Reveal what users actually need before teams overbuild."
+  },
+  {
+    label: "Usability testing",
+    color: "#EEFDF5",
+    description: "Identify friction quickly through observed behavior, not assumptions."
+  },
+  {
+    label: "Information architecture",
+    color: "#EEF6FF",
+    description: "Make complex products easier to navigate, understand, and use."
+  },
+  {
+    label: "Accessibility",
+    color: "#EEFDF5",
+    description: "Design experiences that work for more people, across contexts and abilities."
+  },
+  {
+    label: "Design systems",
+    color: "#EEF6FF",
+    description: "Create consistency, speed, and scalable decision-making across teams."
+  },
+  {
+    label: "AI-assisted UX workflows",
+    color: "#EEFDF5",
+    description: "Accelerate synthesis, tagging, and insight generation without losing judgment."
+  }
 ];
 
 function App() {
