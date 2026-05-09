@@ -89,16 +89,16 @@ function App() {
         <p className="eyebrow">Expertise</p>
         <h2>Where I create value.</h2>
         <div className="grid">
-    {expertise.map((item) => (
-  <div
-    className="card"
-    key={item.label}
-   style={{
-  backgroundColor: item.color,
-  border: "2px solid",
-  borderRadius: "28px",
-  borderImage: "linear-gradient(90deg, #7EA7D8, #79BFA0) 1"
-}}
+   {expertise.map((item) => (
+  <div className="gradientCard" key={item.label}>
+    <div
+      className="card"
+      style={{ backgroundColor: item.color }}
+    >
+      <h3>{item.label}</h3>
+    </div>
+  </div>
+))}
   >
     <h3>{item.label}</h3>
   </div>
