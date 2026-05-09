@@ -99,7 +99,7 @@ function App() {
     </div>
   </div>
 ))}
-  >
+
     <h3>{item.label}</h3>
   </div>
 ))}
