@@ -100,9 +100,7 @@ function App() {
   </div>
 ))}
 
-    <h3>{item.label}</h3>
-  </div>
-))}
+  
         </div>
       </section>
 
