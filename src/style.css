@@ -59,16 +59,14 @@ a {
 
 .hero {
   min-height: 88vh;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
   padding: 72px clamp(20px, 5vw, 72px);
 }
-
-.heroInner {
-  max-width: 1050px;
+..heroInner {
+  max-width: 760px;
 }
-
-.eyebrow {
+eyebrow {
   color: #5c5470;
   text-transform: none;
   letter-spacing: 0.02em;
