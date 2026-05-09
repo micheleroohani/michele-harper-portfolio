@@ -95,7 +95,8 @@ function App() {
     key={item.label}
    style={{
   backgroundColor: item.color,
-  border: "3px solid",
+  border: "2px solid",
+  borderRadius: "28px",
   borderImage: "linear-gradient(90deg, #7EA7D8, #79BFA0) 1"
 }}
   >
