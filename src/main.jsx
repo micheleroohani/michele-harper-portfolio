@@ -118,7 +118,8 @@ function App() {
       className="card"
       style={{ backgroundColor: item.color }}
     >
-      <h3>{item.label}</h3>
+    <h3>{item.label}</h3>
+<p>{item.description}</p>
     </div>
   </div>
 ))}
