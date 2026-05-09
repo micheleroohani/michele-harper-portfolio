@@ -89,12 +89,11 @@ function App() {
         <p className="eyebrow">Expertise</p>
         <h2>Where I create value.</h2>
         <div className="grid">
-          {expertise.map((label) => (
-            <div className="card" key={label}>
-              <div className="iconDot"></div>
-              <h3>{label}</h3>
-            </div>
-          ))}
+         {expertise.map((label) => (
+  <div className="card" key={label}>
+    <h3>{label}</h3>
+  </div>
+))}
         </div>
       </section>
 
