@@ -89,7 +89,7 @@ function App() {
         <p className="eyebrow">Expertise</p>
         <h2>Where I create value.</h2>
         <div className="grid">
-   {expertise.map((item) => (
+{expertise.map((item) => (
   <div className="gradientCard" key={item.label}>
     <div
       className="card"
@@ -99,8 +99,6 @@ function App() {
     </div>
   </div>
 ))}
-
-  
         </div>
       </section>
 
