@@ -192,7 +192,6 @@ const copyEmail = async () => {
     {copied ? "Copied ✓" : "Copy email"}
   </button>
 
-  <span className="emailText">michele5harper@gmail.com</span>
 
   <a
     href="https://www.linkedin.com/in/micheleharperux/"
