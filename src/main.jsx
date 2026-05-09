@@ -50,7 +50,7 @@ const expertise = [
   {
     label: "Information architecture",
     color: "#EEF6FF",
-    description: "Make complex products easier to navigate, understand, and use."
+    description: "Organize, structure, and label content so users can find what they need and complete tasks intuitively."
   },
   {
     label: "Accessibility",
