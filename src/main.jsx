@@ -91,7 +91,7 @@ const copyEmail = async () => {
       <header id="top" className="hero">
         <div className="heroInner">
           <p className="eyebrow">Senior UX researcher & product designer</p>
-          <h1>Research-led UX for complex products, enterprise platforms, and AI-assisted workflows..</h1>
+          <h1>Research-led UX for complex products, enterprise platforms, and AI-assisted workflows.</h1>
           <p className="lede">
             I help product teams make better decisions through usability research, information architecture, accessibility-minded design, and AI-assisted UX workflows.
           </p>
