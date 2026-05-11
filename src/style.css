@@ -133,8 +133,8 @@ p {
 }
 
 .primary {
-  background: #6d9ed6;
-  color: #0F437E;
+  background: #0F437E;
+  color: #fff;
   border: none;
   box-shadow: 0 6px 18px rgba(109, 158, 214, 0.18);
 }
@@ -143,7 +143,7 @@ p {
   background:
     linear-gradient(#ffffff, #ffffff) padding-box,
     linear-gradient(90deg, #6d9ed6, #69bfa0) border-box;
-  color: red;
+ color: #0F437E;
   border: 2px solid transparent;
   box-shadow: 0 6px 18px rgba(109, 158, 214, 0.18);
 }
