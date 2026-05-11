@@ -140,9 +140,9 @@ p {
 }
 
 .secondary {
-  background: linear-gradient(90deg, #6d9ed6, #69bfa0);
-  color: white;
-  border: none;
+  background: white;
+  color: linear-gradient(90deg, #6d9ed6, #69bfa0);
+  border: linear-gradient(90deg, #6d9ed6, #69bfa0);
   box-shadow: 0 6px 18px rgba(109, 158, 214, 0.18);
 }
 
