@@ -140,12 +140,13 @@ p {
 }
 
 .secondary {
-  background: white;
-  color: linear-gradient(90deg, #6d9ed6, #69bfa0);
-  border: linear-gradient(90deg, #6d9ed6, #69bfa0);
+  background:
+    linear-gradient(#ffffff, #ffffff) padding-box,
+    linear-gradient(90deg, #6d9ed6, #69bfa0) border-box;
+  color: #1e1e1e;
+  border: 2px solid transparent;
   box-shadow: 0 6px 18px rgba(109, 158, 214, 0.18);
 }
-
 .section {
   padding: 96px clamp(20px, 5vw, 72px);
   border-top: 1px solid #e7e3dc;
