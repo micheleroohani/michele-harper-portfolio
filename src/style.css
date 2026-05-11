@@ -139,8 +139,9 @@ p {
 }
 
 .secondary {
-  background: rgba(255,255,255,.42);
-  color: #1e1e1e;
+  background: linear-gradient(90deg, #6d9ed6, #69bfa0);
+  color: white;
+  border: none;
 }
 
 .section {
