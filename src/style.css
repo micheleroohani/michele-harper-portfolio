@@ -133,15 +133,17 @@ p {
 }
 
 .primary {
-  background: #1e1e1e;
-  color: #fafaf8;
-  border-color: #1e1e1e;
+  background: #6d9ed6;
+  color: white;
+  border: none;
+  box-shadow: 0 6px 18px rgba(109, 158, 214, 0.18);
 }
 
 .secondary {
   background: linear-gradient(90deg, #6d9ed6, #69bfa0);
   color: white;
   border: none;
+  box-shadow: 0 6px 18px rgba(109, 158, 214, 0.18);
 }
 
 .section {
