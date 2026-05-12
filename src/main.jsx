@@ -101,7 +101,7 @@ const copyEmail = async () => {
           </div>
           <div className="credibilityBar">
   <span>NN/g certified in interaction design & usability testing</span>
-  <span>USC engineering background</span>
+  <span>Engineering AND Design background</span>
   <span>12+ years across SaaS, healthcare, automotive & consumer tech</span>
 </div>
         </div>
@@ -112,10 +112,10 @@ const copyEmail = async () => {
         <h2>UX research with product judgment.</h2>
         <div className="twoCol">
           <p>
-            I’m a UX researcher and designer with 12+ years of experience across SaaS, healthcare, automotive, consumer technology, and global web platforms.
+            I’m a senior UX researcher and product designer with 12+ years of experience helping organizations make better product decisions through research, testing, systems thinking, and design leadership.
           </p>
           <p>
-            My background combines design, research, and engineering, which helps me work fluently with product, design, development, analytics, SEO, and accessibility teams.
+           I’m certified by Nielsen Norman Group in interaction design and usability testing, and I’ve led work across enterprise SaaS, healthcare transformation, automotive ecosystems, and consumer technology.
           </p>
         </div>
       </section>
