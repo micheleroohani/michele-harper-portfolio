@@ -173,21 +173,46 @@ const copyEmail = async () => {
           ))}
         </div>
       </section>
+<section id="tools" className="section">
+  <p className="eyebrow">Tools & methods</p>
+  <h2>Research capabilities, design strategy, and AI-assisted workflows.</h2>
 
-      <section id="tools" className="section">
-        <p className="eyebrow">Tools & methods</p>
-        <h2>Research, strategy, and design methods.</h2>
-        <div className="toolGroups">
-          <p><strong>Research:</strong> UserTesting, Userlytics, UserZoom, Validately, interviews, surveys, card sorting, tree testing, A/B testing.</p>
-          <p><strong>Design:</strong> Figma, design systems, wireframes, prototypes, annotated flows.</p>
-          <p><strong>Strategy:</strong> UX audits, information architecture, journey mapping, competitive benchmarks, accessibility reviews.</p>
-          <p><strong>AI:</strong> AI-assisted synthesis, tagging, research workflows, product spec generation, UX oversight.</p>
-        </div>
-      </section>
+  <div className="methodGrid">
+    <div className="methodCard">
+      <h3>Research capabilities</h3>
+      <p>
+        Usability testing, moderated and unmoderated studies, interviews,
+        surveys, card sorting, tree testing, A/B testing, research planning,
+        and synthesis.
+      </p>
+    </div>
 
-      <footer id="contact" className="footer">
-        <p className="eyebrow">Contact</p>
-        <h2>Interested in UX research, consulting, or AI-assisted product workflows?</h2>
+    <div className="methodCard">
+      <h3>Design & systems</h3>
+      <p>
+        Figma, design systems, wireframes, prototypes, annotated flows,
+        information architecture, accessibility reviews, and UX specifications.
+      </p>
+    </div>
+
+    <div className="methodCard">
+      <h3>Strategy & product judgment</h3>
+      <p>
+        UX audits, journey mapping, competitive benchmarks, stakeholder
+        alignment, product decision support, and prioritization of research
+        findings.
+      </p>
+    </div>
+
+    <div className="methodCard">
+      <h3>AI-assisted UX workflows</h3>
+      <p>
+        AI-assisted synthesis, tagging, research workflow design, product spec
+        generation, prompt-aware UX thinking, and human oversight of AI outputs.
+      </p>
+    </div>
+  </div>
+</section>
         
 <div className="contactLinks">
   <button
