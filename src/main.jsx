@@ -214,7 +214,11 @@ const copyEmail = async () => {
   </div>
 </section>
         
-<div className="contactLinks">
+<footer id="contact" className="footer">
+  <p className="eyebrow">Contact</p>
+  <h2>Interested in UX research, consulting, or AI-assisted product workflows?</h2>
+
+  <div className="contactLinks">
   <button
     className="contactCopy"
     onClick={copyEmail}
