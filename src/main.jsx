@@ -125,9 +125,11 @@ const copyEmail = async () => {
 
   <div className="credentialsGrid">
     <div className="credentialCard">
-      <h3>Nielsen Norman Group</h3>
-      <p>Interaction design & usability testing</p>
-    </div>
+       <h3>Nielsen Norman Group</h3>
+  <p>
+    UX Certification spanning interaction design, usability research, analytics, journey mapping, and UX leadership
+  </p>
+</div>
 
     <div className="credentialCard">
       <h3>Interaction Design Foundation</h3>
