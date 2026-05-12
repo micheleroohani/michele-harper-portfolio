@@ -255,8 +255,32 @@ p {
   padding-left: 18px;
 }
 
-.toolGroups {
-  max-width: 900px;
+.methodGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  max-width: 1050px;
+}
+
+.methodCard {
+  border: 1px solid #e7e3dc;
+  border-radius: 26px;
+  padding: 28px 32px;
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.methodCard h3 {
+  color: #184c85;
+}
+
+.methodCard p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 760px) {
+  .methodGrid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .footer {
