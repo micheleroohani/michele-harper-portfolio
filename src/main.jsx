@@ -119,7 +119,7 @@ const copyEmail = async () => {
           </p>
         </div>
       </section>
-      <section id="credentials" className="section">
+    <section id="credentials" className="section">
   <p className="eyebrow">Credentials</p>
   <h2>Training, certifications, and foundations that shape my UX practice.</h2>
 
@@ -132,6 +132,11 @@ const copyEmail = async () => {
     <div className="credentialCard">
       <h3>Interaction Design Foundation</h3>
       <p>Accessibility, immersive experience design</p>
+    </div>
+
+    <div className="credentialCard">
+      <h3>Anthropic Academy</h3>
+      <p>AI fluency, LLM foundations, and applied AI workflows</p>
     </div>
 
     <div className="credentialCard">
