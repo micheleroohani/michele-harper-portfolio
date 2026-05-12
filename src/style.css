@@ -267,10 +267,10 @@ p {
 
 .meta {
   color: #5c5470;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-weight: 800;
+  font-size: 14px;
+  text-transform: none;
+  letter-spacing: 0.01em;
+  font-weight: 600;
   margin: 0 0 12px;
 }
 
