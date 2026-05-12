@@ -119,6 +119,37 @@ const copyEmail = async () => {
           </p>
         </div>
       </section>
+      <section id="credentials" className="section">
+  <p className="eyebrow">Credentials</p>
+  <h2>Training, certifications, and foundations that shape my UX practice.</h2>
+
+  <div className="credentialsGrid">
+    <div className="credentialCard">
+      <h3>Nielsen Norman Group</h3>
+      <p>Interaction design & usability testing</p>
+    </div>
+
+    <div className="credentialCard">
+      <h3>Interaction Design Foundation</h3>
+      <p>Accessibility, immersive experience design</p>
+    </div>
+
+    <div className="credentialCard">
+      <h3>Google</h3>
+      <p>Generative AI fundamentals</p>
+    </div>
+
+    <div className="credentialCard">
+      <h3>UCLA</h3>
+      <p>Design communication arts</p>
+    </div>
+
+    <div className="credentialCard">
+      <h3>USC</h3>
+      <p>B.S. Chemical Engineering</p>
+    </div>
+  </div>
+</section>
 
       <section id="expertise" className="section">
         <p className="eyebrow">Expertise</p>
