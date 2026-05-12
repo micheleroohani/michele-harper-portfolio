@@ -5,35 +5,35 @@ import "./style.css";
 const caseStudies = [
   {
     client: "Fuel Cycle",
-    title: "AI-driven UX research enhancements",
+    title: "AI-native research workflow transformation",
     role: "Head of UX",
     focus: "AI, SaaS, research synthesis",
     summary:
-      "Led UX work to integrate AI-assisted summaries, tagging, thematic analysis, and objective alignment into research workflows, reducing manual effort and improving the speed of insight generation.",
+      "Led UX strategy for integrating AI-assisted summaries, tagging, thematic analysis, and objective alignment into enterprise research workflows, accelerating insight generation and reducing manual synthesis effort.",
   },
   {
     client: "ProMedica",
-    title: "Digital transformation of a healthcare company",
+    title: "Digital transformation across a healthcare ecosystem",
     role: "Director of UX",
     focus: "IA, usability testing, design systems",
     summary:
-      "Led UX strategy for consolidating three fragmented healthcare websites into one coherent CMS experience, including UX audits, content inventory, journey design, usability testing, SEO alignment, and a live Figma design system.",
+      "Led UX strategy to unify three fragmented healthcare websites into a coherent CMS-driven experience, improving usability, content governance, and cross-team design consistency through a live design system.",
   },
   {
     client: "NNA connected services",
-    title: "Testing the current site of an automotive company",
+    title: "Improving conversion and discoverability for an automotive platform",
     role: "Lead UX researcher",
     focus: "Usability testing, conversion, content clarity",
     summary:
-      "Designed and ran remote usability testing to uncover why users were not engaging with key content. Findings helped prioritize clearer CTAs, better content hierarchy, and more discoverable offers.",
+      "Designed and led remote usability research that uncovered behavioral friction points, leading to clearer calls to action, stronger information hierarchy, and more discoverable customer pathways.",
   },
   {
     client: "HP consumer services",
-    title: "Testing a redesign of a consumer technology site",
+    title: "De-risking a redesign for a global consumer technology experience",
     role: "Lead UX researcher",
     focus: "Prototype testing, navigation, client education",
     summary:
-      "Ran usability testing on redesigned support pages, synthesized findings into actionable recommendations, and helped establish UX research as a trusted method for future projects.",
+      "Ran evaluative usability research on redesigned support experiences, translating findings into actionable product recommendations while helping establish UX research as a trusted decision-making practice.",
   },
 ];
 const expertise = [
@@ -252,7 +252,7 @@ const copyEmail = async () => {
         
 <footer id="contact" className="footer">
   <p className="eyebrow">Contact</p>
-  <h2>Interested in UX research, consulting, or AI-assisted product workflows?</h2>
+  <h2>Need research clarity, UX leadership, or AI-assisted product thinking?</h2>
 
   <div className="contactLinks">
   <button
