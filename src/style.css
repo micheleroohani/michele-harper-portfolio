@@ -204,6 +204,36 @@ p {
 .gradientCard {
   display: flex;
 }
+.credentialsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  max-width: 1050px;
+}
+
+.credentialCard {
+  border: 1px solid #e7e3dc;
+  border-radius: 26px;
+  padding: 28px 32px;
+  background: rgba(255, 255, 255, 0.62);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.credentialCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(24, 76, 133, 0.08);
+}
+
+.credentialCard h3 {
+  color: #184c85;
+  margin-bottom: 12px;
+}
+
+.credentialCard p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
 .iconDot {
   width: 22px;
   height: 22px;
@@ -281,6 +311,9 @@ p {
   .methodGrid {
     grid-template-columns: 1fr;
   }
+  .credentialsGrid {
+  grid-template-columns: 1fr;
+}
 }
 
 .footer {
