@@ -99,6 +99,11 @@ const copyEmail = async () => {
             <a className="button primary" href="#case-studies">View case studies →</a>
             <a className="button secondary" href="#contact">Contact me</a>
           </div>
+          <div className="credibilityBar">
+  <span>NN/g certified in interaction design & usability testing</span>
+  <span>USC engineering background</span>
+  <span>12+ years across SaaS, healthcare, automotive & consumer tech</span>
+</div>
         </div>
       </header>
 
