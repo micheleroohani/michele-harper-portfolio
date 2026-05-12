@@ -15,7 +15,7 @@ const caseStudies = [
     client: "ProMedica",
     title: "Digital transformation across a healthcare ecosystem",
     role: "Director of UX",
-    focus: "information architcture, usability testing, design systems",
+    focus: "Information architcture, usability testing, design systems",
     summary:
       "Led UX strategy to unify three fragmented healthcare websites into a coherent CMS-driven experience, improving usability, content governance, and cross-team design consistency through a live design system.",
   },
