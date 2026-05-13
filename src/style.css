@@ -14,6 +14,7 @@ body {
     radial-gradient(circle at top left, rgba(92, 84, 112, 0.30), transparent 32rem),
     #fafaf8;
 }
+
 a {
   color: inherit;
   text-decoration: none;
@@ -60,9 +61,11 @@ a {
   align-items: center;
   padding: 72px clamp(20px, 5vw, 72px);
 }
+
 .heroInner {
   max-width: 760px;
 }
+
 .eyebrow {
   color: #0F437E;
   text-transform: none;
@@ -71,6 +74,7 @@ a {
   font-weight: 600;
   margin-bottom: 18px;
 }
+
 .credibilityBar {
   display: flex;
   flex-wrap: wrap;
@@ -125,27 +129,6 @@ p {
   line-height: 1.7;
   font-size: 20px;
 }
-.aboutHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 48px;
-  max-width: 1050px;
-  margin-bottom: 36px;
-}
-
-.profilePhotoWrap {
-  flex-shrink: 0;
-}
-
-.profilePhoto {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid white;
-  box-shadow: 0 12px 30px rgba(24, 76, 133, 0.12);
-}
 
 .lede {
   max-width: 720px;
@@ -186,13 +169,36 @@ p {
   background:
     linear-gradient(#ffffff, #ffffff) padding-box,
     linear-gradient(90deg, #6d9ed6, #69bfa0) border-box;
- color: #0F437E;
+  color: #0F437E;
   border: 2px solid transparent;
   box-shadow: 0 6px 18px rgba(109, 158, 214, 0.18);
 }
+
 .section {
   padding: 96px clamp(20px, 5vw, 72px);
   border-top: 1px solid #e7e3dc;
+}
+
+.aboutHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+  max-width: 1050px;
+  margin-bottom: 36px;
+}
+
+.profilePhotoWrap {
+  flex-shrink: 0;
+}
+
+.profilePhoto {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 12px 30px rgba(24, 76, 133, 0.12);
 }
 
 .twoCol {
@@ -209,23 +215,6 @@ p {
   max-width: 1050px;
 }
 
-.card {
-  min-height: 220px;
-  padding: 28px 32px;
-  border-radius: 26px;
-  box-sizing: border-box;
-  height: 100%;
-}
-.gradientCard {
-  border: 1px solid #e7e3dc;
-  padding: 2px;
-  border-radius: 28px;
-  background: rgba(255, 255, 255, 0.62);
-}
-
-.gradientCard {
-  display: flex;
-}
 .credentialsGrid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -233,11 +222,32 @@ p {
   max-width: 1050px;
 }
 
-.credentialCard {
+.methodGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  max-width: 1050px;
+}
+
+.card,
+.credentialCard,
+.methodCard {
   border: 1px solid #e7e3dc;
   border-radius: 26px;
   padding: 28px 32px;
   background: rgba(255, 255, 255, 0.62);
+}
+
+.card {
+  min-height: 220px;
+  height: 100%;
+}
+
+.gradientCard {
+  display: flex;
+}
+
+.credentialCard {
   transition: transform 160ms ease, box-shadow 160ms ease;
 }
 
@@ -246,23 +256,16 @@ p {
   box-shadow: 0 10px 28px rgba(24, 76, 133, 0.08);
 }
 
-.credentialCard h3 {
+.credentialCard h3,
+.methodCard h3 {
   color: #184c85;
-  margin-bottom: 12px;
 }
 
-.credentialCard p {
+.credentialCard p,
+.methodCard p {
   margin: 0;
   font-size: 18px;
   line-height: 1.5;
-}
-.iconDot {
-  width: 22px;
-  height: 22px;
-  border-radius: 99px;
-  border: 1px solid #5c5470;
-  background: rgba(92, 84, 112, 0.14);
-  margin-bottom: 28px;
 }
 
 .caseList {
@@ -278,7 +281,7 @@ p {
   padding: 30px;
   border: 1px solid #e7e3dc;
   border-radius: 32px;
-  background: rgba(255,255,255,.62);
+  background: rgba(255, 255, 255, 0.62);
 }
 
 .caseNumber {
@@ -307,40 +310,9 @@ p {
   padding-left: 18px;
 }
 
-.methodGrid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
-  max-width: 1050px;
-}
-
-.methodCard {
-  border: 1px solid #e7e3dc;
-  border-radius: 26px;
-  padding: 28px 32px;
-  background: rgba(255, 255, 255, 0.62);
-}
-
-.methodCard h3 {
-  color: #184c85;
-}
-
-.methodCard p {
-  margin-bottom: 0;
-}
-
-@media (max-width: 760px) {
-  .methodGrid {
-    grid-template-columns: 1fr;
-  }
-  .credentialsGrid {
-  grid-template-columns: 1fr;
-}
-}
-
 .footer {
   padding: 96px clamp(20px, 5vw, 72px) 40px;
-  background:#0F437E;
+  background: #0F437E;
   color: #fafaf8;
 }
 
@@ -359,14 +331,7 @@ p {
   margin: 28px 0 70px;
 }
 
-.contactLinks a {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  border: 1px solid rgba(250, 250, 248);
-  border-radius: 999px;
-  padding: 13px 18px;
-}
+.contactLinks a,
 .contactCopy {
   display: inline-flex;
   align-items: center;
@@ -374,6 +339,9 @@ p {
   border: 1px solid rgba(250, 250, 248);
   border-radius: 999px;
   padding: 13px 18px;
+}
+
+.contactCopy {
   background: transparent;
   color: #fafaf8;
   font: inherit;
@@ -382,13 +350,6 @@ p {
 
 .contactCopy:hover {
   border-color: rgba(250, 250, 248, 0.5);
-}
-
-.emailText {
-  display: inline-flex;
-  align-items: center;
-  color: rgba(250, 250, 248, 0.72);
-  font-size: 16px;
 }
 
 .small {
@@ -412,8 +373,20 @@ p {
     padding-bottom: 88px;
   }
 
+  .aboutHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profilePhoto {
+    width: 140px;
+    height: 140px;
+  }
+
   .twoCol,
   .grid,
+  .credentialsGrid,
+  .methodGrid,
   .steps {
     grid-template-columns: 1fr;
   }
