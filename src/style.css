@@ -125,6 +125,27 @@ p {
   line-height: 1.7;
   font-size: 20px;
 }
+.aboutHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+  max-width: 1050px;
+  margin-bottom: 36px;
+}
+
+.profilePhotoWrap {
+  flex-shrink: 0;
+}
+
+.profilePhoto {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 12px 30px rgba(24, 76, 133, 0.12);
+}
 
 .lede {
   max-width: 720px;
