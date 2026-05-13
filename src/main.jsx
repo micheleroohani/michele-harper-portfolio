@@ -39,32 +39,32 @@ const caseStudies = [
 const expertise = [
   {
     label: "UX research",
-    color: "#EEF6FF",
+   
     description: "Reveal what users actually need before teams overbuild."
   },
   {
     label: "Usability testing",
-    color: "#EEFDF5",
+
     description: "Identify friction quickly through observed behavior, not assumptions."
   },
   {
     label: "Information architecture",
-    color: "#EEF6FF",
+
     description: "Organize, structure, and label content so users can find what they need and complete tasks intuitively."
   },
   {
     label: "Accessibility",
-    color: "#EEFDF5",
+
     description: "Design experiences that work for more people, across contexts and abilities."
   },
   {
     label: "Design systems",
-    color: "#EEF6FF",
+
     description: "Create consistency, speed, and scalable decision-making across teams."
   },
   {
     label: "AI-assisted UX workflows",
-    color: "#EEFDF5",
+
     description: "Accelerate synthesis, tagging, and insight generation without losing judgment."
   }
 ];
