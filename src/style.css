@@ -196,11 +196,7 @@ p {
   box-sizing: border-box;
   height: 100%;
 }
-.gradientCard {
-  padding: 2px;
-  border-radius: 28px;
-  background: linear-gradient(90deg, #6d9ed6, #69bfa0);
-}
+
 .gradientCard {
   display: flex;
 }
