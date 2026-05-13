@@ -107,10 +107,22 @@ const copyEmail = async () => {
         </div>
       </header>
 
-      <section id="about" className="section">
-        <p className="eyebrow">About</p>
-        <h2>UX research with product judgment.</h2>
-        <div className="twoCol">
+     <section id="about" className="section">
+  <p className="eyebrow">About</p>
+
+  <div className="aboutHeader">
+    <h2>UX research with product judgment.</h2>
+
+    <div className="profilePhotoWrap">
+      <img
+        src="/michele-profile.jpg"
+        alt="Michele Harper"
+        className="profilePhoto"
+      />
+    </div>
+  </div>
+
+  <div className="twoCol">
           <p>
             I’m a senior UX researcher and product designer with 12+ years of experience helping organizations make better product decisions through research, testing, systems thinking, and design leadership.
           </p>
