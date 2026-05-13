@@ -196,6 +196,12 @@ p {
   box-sizing: border-box;
   height: 100%;
 }
+.gradientCard {
+  border: 1px solid #e7e3dc;
+  border-radius: 26px;
+  padding: 28px 32px;
+  background: rgba(255, 255, 255, 0.62);
+}
 
 .gradientCard {
   display: flex;
